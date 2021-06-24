@@ -1,3 +1,4 @@
+#THIS IS MY FIRST TEST, IT WORKS ONLY ON MAC OS (the real code is nammed main.py
 """
 Test d'ouverture d'un fichier Unicode (pas utf8) avec python
 xxd : ouvre le fichier en hex
