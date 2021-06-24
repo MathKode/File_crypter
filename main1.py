@@ -87,7 +87,7 @@ if c.lower() == "c":
     ls_finalbit = []
     for i in ls_binary:
         ls_finalbit.append(rotate_left(i,p))
-        p += (1 + int(ls_k[t])) % int(ls_k[0])
+        p = (p + int(ls_k[t])) % int(ls_k[0])
         t += 1
         if t > len(ls_k)-1:
             t = 0
@@ -100,7 +100,7 @@ else :
     ls_finalbit = []
     for i in ls_binary:
         ls_finalbit.append(rotate_right(i,p))
-        p += (1 + int(ls_k[t])) % int(ls_k[0])
+        p = (p + int(ls_k[t])) % int(ls_k[0])
         t += 1
         if t > len(ls_k)-1:
             t = 0
